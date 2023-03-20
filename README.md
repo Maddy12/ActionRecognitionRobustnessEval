@@ -1,4 +1,4 @@
-# Large-scale Robustness Analysis of Video Action Recognition Models
+# Large-scale Robustness Analysis of Video Action Recognition Models (CVPR 2023)
 This repository is for [Large-scale Robustness Analysis of Video Action Recognition Models
 ](https://arxiv.org/abs/2207.01398) by [Madeline Chantry](https://sites.google.com/view/madelineschiappa/home), 
 [Naman Biyani](https://arxiv.org/search/cs?searchtype=author&query=Biyani%2C+N), Prudvi Kamtam, 
