@@ -119,11 +119,17 @@ done
 ```
 
 # Pretrained Models
-TODO
+| Model    |   Mixed $(\gamma^r)$ |   PixMix $(\gamma^r)$ |   Spatial $(\gamma^r)$ |   Temporal $(\gamma^r)$ |
+|:---------|---------------------:|----------------------:|-----------------------:|------------------------:|
+| MViT     |                 0.59 |                  0.29 |                   0.08 |                    0.21 |
+| R2D1     |                 1.02 |                  0.37 |                   0.86 |                    1.16 |
+| ResNet50 |                 1.06 |                  1.11 |                   1.16 |                    1.12 |
+| X3D      |                 1.12 |                  0.98 |                   1.25 |                    0.9  |
+
+
+In this case, we treat the model trained on pertrubed data as "clean": $\gamma^r_p = 1 - (A^{f}_p - A^{f_p}_p)/ A^{f_p}_p$
 
 # UCF101-DS
-TODO
-
 To use UCF101-DS, first download the dataset from the 
 [UCF webpage](https://www.crcv.ucf.edu/research/projects/ucf101-ds-action-recognition-for-real-world-distribution-shifts/)
 
